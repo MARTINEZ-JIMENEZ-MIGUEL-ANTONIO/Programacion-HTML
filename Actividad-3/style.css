@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    color: white;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+    color: white;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+img{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+p{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+
+.navbar{
+    background-color: #101d2b;
+    height:  70px;
+    padding: 0 30px;
+}
+
+.navbar h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin:  10px 0;
+    line-height: 1.2;
+}
+
+.navbar .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar a{
+    color: white;
+    padding: 9px;
+    margin: 10px 0;
+}
+
+.navbar a:hover{
+    color: #f0e68c;
+    border-bottom:  3px solid #fff;
+}
+
+.showcase{
+    height: 300px;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2023/04/hubble_33rd_ngc1333_stsci-01gyag6jy36rtbx7sxbmany6n5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.showcase p{
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.showcase img{
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.showcase-form{
+    padding-left: 7px;
+}
+
+.grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+}
+
+.grid-item-1, .grid-item-2{
+    position: relative;
+    top: 50px;
+}
+
+.showcase input[type='email']{
+    padding: 10px 70px 10px 0;
+    font-size: 14px;
+    border:  none;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+
+.btn{
+    border-radius: 6px;
+    padding: 12px 20px;
+    background-color: #ca2929;
+    border: none;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow:  0 10px 10px rgb(0, 0, 0, 0.2);
+}
+
+.litle-info{
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+}
+
+.lower-container{
+    margin: 10px auto;
+    padding: 0;
+    max-width: 1400px;
+
+}
+
+.title{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.text{
+    color: black;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 20px;
+    text-align: justify;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats{
+    padding: 45px 50px;
+    text-align: center;
+}
+
+.stat{
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+}
+
+.stats .fa{
+    color: orange;
+}
+
+.testimonial{
+    color: black;
+    margin-bottom: 30px;
+
+}
+.testimonial img{
+    height: 100%;
+    clip-path: circle();
+    
+}
+.testimonial h3{
+    text-align: center;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card{
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -7px -7px 20px rgb(0,0, 0, 0.2),
+                7px 7px 20px  rgb(0,0, 0, 0.2)
+                
+
+}
+
+.circle{
+    background-color: transparent;
+    border: 3px solid orange;
+    height: 90px;
+    position: relative;
+    top: 30px;
+    left: 120px;
+    border-radius: 50%;
+    width: 90px;
+}
+
+.title-card{
+    margin-top: 40px;
+    font-size: 150%;
+}
+
+footer{
+    background-color: #101d2b;
+    padding: 20px 10px;
+}
+
+footer a{
+    color: white;
+    margin: 0 10px;
+
+}
+
+footer a:hover{
+    color: #f0e68c;
+    border-bottom: 2px solid #f0e68c;
+}
